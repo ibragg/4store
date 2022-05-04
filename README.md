@@ -4,17 +4,17 @@
 
 4 store был реализован на недорогом сетевом кластере со многими десятками серверов, поддерживающих работу 24x7.
 
-##Инструменты для взаимодействия с СУБД
+## Инструменты для взаимодействия с СУБД
 Инструментами взаимодействия являются RDF parser Raptor либо Rasqal (SPARQL parser)
 
-##Database engine
+## Database engine
 Clustered RDF store
 
-##Queries architecture:
+## Queries architecture:
 Запросы во многом основываются на реляционной алгебре и выглядят следующим образом:
 ![query](query.png)
 
-##Распределение файлов БД
+## Распределение файлов БД
 4store’s cluster topology:
 ![distr](distr.png)
 
